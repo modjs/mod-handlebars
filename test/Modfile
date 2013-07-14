@@ -1,0 +1,14 @@
+// A sample Modfile
+// More info at https://github.com/modulejs/modjs/
+
+module.exports = {
+    plugins: {
+        "handlebars": "../index.js"
+    },
+    tasks: {
+        "handlebars": {
+            src: "test.hbs",
+            dest: "test.js"
+        }
+    }
+};
